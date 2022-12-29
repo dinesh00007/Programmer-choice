@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_blue_A400">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:id="@+id/times"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            >
+
+        </TextView>
+
+        <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            >
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".questions"
+    android:padding="10dp"
+            android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/light_blue_A400"
+
+    >
+
+
+
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+
+            android:padding="10dp"
+            android:text="Enter your Question"
+            android:textColor="@color/purple_700"
+
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            >
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+
+            >
+                <ProgressBar
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:progress="1"
+                    android:id="@+id/progressd"
+                    android:max="10"
+                    android:minHeight="50dp"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    >
+
+                </ProgressBar>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1/10"
+                    android:id="@+id/totalsum"
+                    android:textSize="20sp"
+                    android:padding="10dp"
+                    android:textColor="@color/purple_700"
+                    ></TextView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+
+            android:background="@drawable/quetio_op"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="option1"
+            android:textColor="@color/purple_700"
+            android:textSize="15sp"
+
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/quetio_op"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="option2"
+            android:textColor="@color/purple_700"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/quetio_op"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="option3"
+            android:textColor="@color/purple_700"
+            android:textSize="15sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/quetio_op"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="option4"
+            android:textColor="@color/purple_700"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/nextbtn"
+            android:text="next"
+            android:background="@drawable/quetio_ops"
+            >
+
+        </Button>
+
+
+                </LinearLayout>
+        </ScrollView>
+</LinearLayout>

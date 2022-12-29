@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    android:background="@drawable/reples"
+
+    app:cardUseCompatPadding="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reples"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/icosss"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/reples"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:src="@drawable/c" />
+
+        <TextView
+            android:id="@+id/name_texs"
+            android:layout_width="match_parent"
+            android:background="@drawable/reples"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/icosss"
+            android:layout_marginTop="-2dp"
+            android:gravity="center"
+
+            android:text="Computer sssssssssssss"
+
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/but"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_texs"
+            android:layout_gravity="center"
+
+
+            android:layout_marginTop="4dp"
+
+            android:text="Download"
+            android:textColor="@color/black"
+
+            android:textSize="15dp">
+
+        </Button>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

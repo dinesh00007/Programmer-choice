@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity2"
+    >
+
+
+
+    <ExpandableListView
+            android:layoutDirection="rtl"
+
+            android:layoutAnimation="@anim/item_layout_animtion"
+
+
+            android:background="@color/white"
+            android:id="@+id/asListView"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+    </ExpandableListView>
+
+    <GridView
+        android:id="@+id/grid_views"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layoutAnimation="@anim/item_layou2"
+        android:columnWidth="150dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/gra2"
+
+        android:gravity="center"
+
+
+        android:numColumns="auto_fit"
+        android:verticalSpacing="16dp"
+
+
+        />
+    <GridView
+        android:id="@+id/grid_view"
+        android:layoutAnimation="@anim/item_layou2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="150dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/gra2"
+        android:horizontalSpacing="15dp"
+
+        android:numColumns="auto_fit"
+        android:verticalSpacing="15dp"
+
+
+        />
+    <GridView
+        android:id="@+id/grid_mcq"
+        android:layoutAnimation="@anim/item_layou2"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:columnWidth="150dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+
+        android:background="@drawable/gra2"
+        android:horizontalSpacing="15dp"
+
+        android:numColumns="auto_fit"
+        android:verticalSpacing="15dp"
+
+
+        />
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
